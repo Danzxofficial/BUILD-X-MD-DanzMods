@@ -1,0 +1,41 @@
+
+# Node.js
+node_modules/
+
+# Environment dan secrets
+.env
+.env.*
+!.env.example
+
+# Telegram session
+*.session
+*.session-journal
+sessions/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Flutter dan Dart
+.dart_tool/
+.packages
+.pub-cache/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Android
+android/.gradle/
+android/local.properties
+android/key.properties
+android/app/*.jks
+android/app/*.keystore
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
